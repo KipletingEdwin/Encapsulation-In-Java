@@ -7,9 +7,28 @@ public class Main {
         e.setID(2);
         e.setSalary(30000);
 
+
+        Cars car1 = new Cars("Toyota", 2022, "Harrier");
+
+        System.out.println("Type: " + car1.getType() + "  Make: " + car1.getMake() + "  Year: " + car1.getYear());
+
+        System.out.println("After updating the make");
+
+        car1.setType("Fielder");
+
+        System.out.println("Type: " + car1.getType() + "  Make: " + car1.getMake() + "  Year: " + car1.getYear());
+
+
+
+        System.out.println("________________________________________________________________");
+
+
+
         System.out.println("Name: " + e.getName());
         System.out.println("ID: " + e.getID());
         System.out.println("Salary: "+e.getSalary());
+
+
 
     }
 }
